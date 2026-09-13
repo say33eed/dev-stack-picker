@@ -17,20 +17,18 @@ const Navbar = () => {
     return (
         <section className="sticky top-0 border-b border-gray-100 bg-white">
             <nav className="mx-auto flex h-[72px] max-w-[1180px] items-center justify-between px-5 lg:px-8">
-                
+
                 {/* Mobile hamburger */}
-                
+
                 <button
                     type="button"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="flex h-9 w-9 items-center justify-center md:hidden"
-
+                    className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-md transition-colors duration-200 hover:bg-gray-100 md:hidden"
                 >
-                    {/* <RxHamburgerMenu /> */}
                     <img src={Hamburger} alt="hamburger" />
                 </button>
 
-                
+
                 {/* Logo */}
 
                 <img src={Logo} alt="logo" />
@@ -50,7 +48,7 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                
+
                 {/* Authentication */}
 
                 <div className="flex items-center gap-3">
