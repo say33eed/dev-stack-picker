@@ -1,19 +1,5 @@
-// import { StrictMode } from 'react'
-// import { createRoot } from 'react-dom/client'
-// import './index.css'
-// import App from './App.tsx'
-// import { ToastContainer } from 'react-toastify'
-// import type { Technology } from "./types/technology";
 
-// createRoot(document.getElementById('root')!).render(
-//   <StrictMode>
-//     <App />
-//     <ToastContainer />
-//   </StrictMode>,
-// )
-
-
-
+import loadingLogo from "./assets/logo-text.png";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
@@ -25,8 +11,9 @@ const root = createRoot(document.getElementById("root")!);
 const loadTechnologies = async () => {
   try {
     root.render(
-      <div className="flex min-h-screen items-center justify-center">
-        <p className="text-sm text-gray-500">Loading technologies...</p>
+      <div className="flex gap-1.5 min-h-screen items-center justify-center">
+        <img src={loadingLogo} alt="Logo" />
+        <h2 className="text-lg font-medium  text-gray-500">Loading...</h2>
       </div>
     );
 
@@ -45,7 +32,7 @@ const loadTechnologies = async () => {
     root.render(
       <div className="flex min-h-screen items-center justify-center">
         <p className="text-sm text-red-500">
-          Failed to load technologies.
+          Error! Failed to load.
         </p>
       </div>
     );
