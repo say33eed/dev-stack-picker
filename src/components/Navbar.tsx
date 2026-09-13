@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/logo-text.png";
-import { RxHamburgerMenu } from "react-icons/rx";
+import Hamburger from "../assets/hamburger.png";
+// import { RxHamburgerMenu } from "react-icons/rx";
 
 const navLinks = [
     { name: "Home" },
@@ -25,7 +26,8 @@ const Navbar = () => {
                     className="flex h-9 w-9 items-center justify-center md:hidden"
 
                 >
-                    <RxHamburgerMenu />
+                    {/* <RxHamburgerMenu /> */}
+                    <img src={Hamburger} alt="hamburger" />
                 </button>
 
                 
