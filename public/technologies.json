@@ -33,11 +33,11 @@
     "id": "nextjs",
     "name": "Next.js",
     "category": "Frontend",
-    "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
+    "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Powerful"
+    "badge": ""
   },
   {
     "id": "nodejs",

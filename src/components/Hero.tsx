@@ -74,8 +74,8 @@ const Hero = () => {
             </a>
 
             <a
-              href="#about"
               className="
+                cursor-pointer
                 flex h-[42px] flex-1 items-center justify-center
                 rounded-md border border-[#e2e8f0]
                 bg-white px-3
