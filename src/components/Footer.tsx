@@ -130,7 +130,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-6 flex items-center justify-between gap-4 text-[12px] text-[#a3afc2]">
           <p>
-            © 2026 Dev Stack. All rights reserved.
+            © 2026 Dev Stack. Developed by Md. Sayed Mia. All rights reserved.
           </p>
 
           <div className="flex items-center gap-5">
